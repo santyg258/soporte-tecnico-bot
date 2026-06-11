@@ -18,6 +18,7 @@ from telegram.ext import (
 load_dotenv()
 TOKEN = os.getenv("TOKEN") # Reemplazá el token obtenido de @BotFather
 ARCHIVO_CSV = os.path.join(os.path.dirname(__file__), "base_datos.csv")
+TICKETS_CSV = os.path.join(os.path.dirname(__file__), "tickets_registrados.csv")
 
 # Categorías disponibles 
 CATEGORIAS = ["red", "pc", "impresora", "software"]
@@ -52,7 +53,7 @@ def buscar_solucion(categoria: str, descripcion: str) -> str | None:
 
 def registrar_ticket(nombre: str, categoria: str, problema: str, resultado: str):
 
-    with open("tickets_registrados.csv", "a", newline="", encoding="utf-8") as archivo:
+    with open(TICKETS_CSV, "a", newline="", encoding="utf-8") as archivo:
         escritor = csv.writer(archivo)
         escritor.writerow([nombre, categoria, problema, resultado])
 
