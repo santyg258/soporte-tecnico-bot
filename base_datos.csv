@@ -11,3 +11,4 @@ id,categoria,palabras_clave,problema,solucion
 10,impresora,papel atasco traba,Papel atascado en la impresora,Apagá la impresora. Abrí la tapa y retirá el papel con cuidado tirando en la dirección del recorrido del papel. Volvé a encender.
 11,software,programa cierra error instalar,Un programa se cierra solo o da error,Cerrá y volvé a abrir el programa. Si persiste desinstalalo y volvé a instalarlo desde la fuente oficial. Verificá que el sistema operativo esté actualizado.
 12,software,actualizacion update windows,Problema con actualizaciones de Windows,Ejecutá el Solucionador de problemas de Windows Update desde Configuración > Actualización y seguridad. Reiniciá el equipo e intentá nuevamente.
+13,software,navegador chrome firefox lento,El navegador está lento o se congela,Limpiá el caché del navegador desde Configuración > Privacidad > Borrar datos de navegación. Desactivá extensiones innecesarias.
