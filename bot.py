@@ -17,7 +17,7 @@ from telegram.ext import (
 # ─── CONFIGURACIÓN ────────────────────────────────────────────────────────────
 load_dotenv()
 TOKEN = os.getenv("TOKEN") # Reemplazá el token obtenido de @BotFather
-ARCHIVO_CSV = "base_datos.csv"
+ARCHIVO_CSV = os.path.join(os.path.dirname(__file__), "base_datos.csv")
 
 # Categorías disponibles 
 CATEGORIAS = ["red", "pc", "impresora", "software"]
