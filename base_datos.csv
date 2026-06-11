@@ -1,0 +1,13 @@
+id,categoria,palabras_clave,problema,solucion
+1,red,internet wifi conexion,No tiene internet,Reiniciá el router desconectándolo 30 segundos. Verificá que los cables estén bien conectados. Si el problema persiste contactá a tu proveedor de internet.
+2,red,wifi lento lenta banda,WiFi lento o con cortes,Acercá el dispositivo al router. Verificá que no haya muchos dispositivos conectados. Intentá reiniciar el router.
+3,red,no conecta red cable ethernet,No se conecta a la red por cable,Verificá que el cable esté bien enchufado en ambos extremos. Probá con otro cable. Reiniciá el adaptador de red desde el Panel de Control.
+4,pc,no enciende apaga prende,La PC no enciende,Verificá que el cable de alimentación esté conectado. Probá con otro tomacorriente. Si tiene UPS o zapatilla verificá que estén encendidos.
+5,pc,pantalla azul error bsod,Pantalla azul de la muerte (BSOD),Reiniciá la PC. Si persiste iniciá en Modo Seguro y ejecutá en CMD: sfc /scannow. Puede ser un driver desactualizado.
+6,pc,lenta tarda lento cuelga,La PC está muy lenta,Abrí el Administrador de Tareas (Ctrl+Shift+Esc) y verificá qué proceso consume más recursos. Considerá reiniciar el equipo o liberar espacio en disco.
+7,pc,virus malware antivirus,Posible virus o malware,Ejecutá un análisis completo con el antivirus instalado. Si no tenés uno descargá Malwarebytes gratuito y realizá un análisis.
+8,impresora,no imprime imprimir impresion,La impresora no imprime,Verificá que la impresora esté encendida y en línea. En Windows: Panel de Control > Dispositivos e impresoras > clic derecho > Ver qué se está imprimiendo > cancelar trabajos pendientes.
+9,impresora,tinta cartucho toner vacia,Sin tinta o tóner,Verificá el nivel de tinta desde el software de la impresora. Reemplazá el cartucho vacío. Asegurate de agitar suavemente el cartucho antes de instalarlo.
+10,impresora,papel atasco traba,Papel atascado en la impresora,Apagá la impresora. Abrí la tapa y retirá el papel con cuidado tirando en la dirección del recorrido del papel. Volvé a encender.
+11,software,programa cierra error instalar,Un programa se cierra solo o da error,Cerrá y volvé a abrir el programa. Si persiste desinstalalo y volvé a instalarlo desde la fuente oficial. Verificá que el sistema operativo esté actualizado.
+12,software,actualizacion update windows,Problema con actualizaciones de Windows,Ejecutá el Solucionador de problemas de Windows Update desde Configuración > Actualización y seguridad. Reiniciá el equipo e intentá nuevamente.
