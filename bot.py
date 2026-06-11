@@ -66,7 +66,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data["estado"] = "esperando_nombre"
 
     await update.message.reply_text(
-        "👋 ¡Bienvenido al sistema de Soporte Técnico Nivel 1!\n\n"
+        "👋 ¡Bienvenido al sistema de Soporte Técnico Nivel 1 de LS!\n\n"
         "Estoy aquí para ayudarte a resolver problemas técnicos.\n\n"
         "¿Cuál es tu nombre?"
     )
