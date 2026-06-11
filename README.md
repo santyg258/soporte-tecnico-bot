@@ -79,7 +79,7 @@ id,categoria,palabras_clave,problema,solucion
 
 ---
 
-## Notas
+## Autores
 
-- El archivo `.env` **no debe subirse** al repositorio (agregar al `.gitignore`).
-- Los tickets se registran automáticamente en `tickets_registrados.csv`.
+- Santiago Gonzalez
+- Lucas Claveri
